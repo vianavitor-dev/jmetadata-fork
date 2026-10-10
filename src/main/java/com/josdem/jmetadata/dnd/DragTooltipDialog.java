@@ -98,10 +98,9 @@ public class DragTooltipDialog extends JDialog {
 
   public void setContent(String... message) {
     jContentPane.setName(DRAG_DIALOG_NAME);
-    Dimension contentSize = fillContent(Arrays.asList(message));
   }
 
-  public void setContent(final Picture picture) {
+  public void setContent() {
     jContentPane.setName(DRAG_DIALOG_NAME);
   }
 
